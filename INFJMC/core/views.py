@@ -3,10 +3,22 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    return HttpResponse("Home")
+    title = "Home"
+    data = {
+        'title': title
+    }
+    return render(request, 'core/home.html', data)
 
 def carreras(request):
-    return HttpResponse("Carreras")
+    title = "Carreras"
+    data = {
+        'title': title
+    }
+    return render(request, 'core/carreras.html', data)
 
 def docentes(request):
-    return HttpResponse("Docentes")
+    title = "Docentes"
+    data = {
+        'title': title
+    }
+    return render(request, 'core/docentes.html', data)
