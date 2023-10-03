@@ -1,7 +1,40 @@
 {% extends 'core/base.html' %}
 
 {% block content %}
+{% load static %}
+<div >
+    <img src="{% static 'core/img/inf.jpeg' %}" class="img-fluid rounded-start" alt="...">
+</div>
 
-<h1>Carreras</h1>
+<div class="container p-5">
+    <h1>Ingeniería en Informática</h1>
+    <div class="row">
+        <div class="col-md-7">
+            <h5>Formación</h5>
+            <p style="text-align: justify;">La carrera de Ingeniería en Informática de la USM forma profesionales con competencias que les faculta para aplicar un cuerpo distintivo de conocimientos científicos, computacionales, matemáticos y de ingeniería a diversos problemas organizacionales, sociales, industriales. Facultado para el desarrollo de productos y servicios tecnológicos sobre plataformas heterogéneas. Adicionalmente posee conocimientos para aplicar soluciones de análisis de datos avanzado sobre distintos dominios del quehacer de organizaciones públicas o privadas del ámbito nacional e internacional, demostrando capacidad para integrar equipos multidisciplinarios y multiculturales, tomando en consideración las restricciones impuestas por la legislación, la ética, las finanzas y las personas.</p>
+        </div>
+
+        <div class="card col-md-4 ms-md-auto shadow-sm mb-5 bg-white rounded">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <b>Titulo Profesional:</b> Ingeniero Informático o Ingeniera Informática
+              </li>
+              <li class="list-group-item">
+                <b>Grado Académico:</b> Licenciado en Ingeniería Informática o Licenciada en Ingeniería Informática
+              </li>
+              <li class="list-group-item">
+                <b>Duración de los estudios:</b> 4 años (8 semestres académicos)
+              </li>
+              <li class="list-group-item">
+                <b>Régimen:</b> Diurno
+              </li>
+              <li class="list-group-item">
+                <b>Lugar:</b> Sede Viña del Mar y Sede Concepción
+              </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 
 {% endblock %}

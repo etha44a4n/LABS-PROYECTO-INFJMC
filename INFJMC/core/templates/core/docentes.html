@@ -1,7 +1,69 @@
 {% extends 'core/base.html' %}
 
 {% block content %}
+{% load static %}
+<div class="row">
+    <img src="{% static 'core/img/Docentes/docentes-banner.jpg' %}" class="d-block w-100 vh-100 object-fit-cover" alt="">
+</div>
 
-<h1>Docentes</h1>
+<div class="container p-5">
+    <h2 class="text-center">Docentes</h2>
+    <div class="row row-cols-1 row-cols-lg-2 g-4">
+        <div class="card mb-3 border-light p-2 ms-md-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{% static 'core/img/Docentes/Gabriel-Jara.jpg' %}" class="card-img-top rounded-circle" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Gabriel Jara</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card mb-3 border-light p-2 ms-md-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{% static 'core/img/Docentes/Pamela-Gatica.jpg' %}" class="card-img-top rounded-circle" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Pamela Gatica</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card mb-3 border-light p-2 ms-md-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{% static 'core/img/Docentes/Gonzalo-Mendoza.jpg' %}" class="card-img-top rounded-circle" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Gonzalo Mendoza</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card mb-3 border-light p-2 ms-md-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{% static 'core/img/Docentes/Oscar-Carrasco.jpg' %}" class="card-img-top rounded-circle" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Oscar Carrasco</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
 
 {% endblock %}
